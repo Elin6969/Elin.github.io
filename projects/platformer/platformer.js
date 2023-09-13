@@ -49,6 +49,8 @@ $(function () {
     createPlatform(500, 410, 90, 50)
     createPlatform(700, 310, 90, 50)
     createPlatform(500, 210, 90, 50)
+    createPlatform(1100, 410, 90, 50)
+    createPlatform(700, 100, 90, 50)
     
     // TODO 2
     // Create collectables
@@ -56,6 +58,10 @@ $(function () {
     // Your collectable choices are 'database' 'diamond' 'grace' 'kennedi' 'max' and 'steve'; more can be added if you wish
     // example usage: createCollectable(type, x, y, gravity, bounce)
 
+    createCollectable("steve", 500, 150, 0, 0.5)
+    createCollectable("grace", 700, 250, 0, 0.5)
+    createCollectable("max", 1100, 350, 0, 0.5)
+    createCollectable("kennedi", )
 
 
 
